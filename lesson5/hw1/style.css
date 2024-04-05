@@ -2,7 +2,11 @@ a[target="_blank"] {
     color: green;
 }
 
-ul, ol {
+ul {
+    background: yellow;
+}
+
+ol {
     background: yellow;
 }
 
@@ -10,7 +14,11 @@ li.new {
     background: red;
 }
 
-footer, header {
+footer {
+    border: 2px dashed blue;
+}
+
+header {
     border: 2px dashed blue;
 }
 
@@ -23,5 +31,5 @@ article.new {
 }
 
 .new.posted-today {
-    border-bottom: 1px solid pink;
+    text-decoration: 1px solid pink;
 }
