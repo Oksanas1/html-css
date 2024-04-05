@@ -1,0 +1,27 @@
+a[target="_blank"] {
+    color: green;
+}
+
+ul, ol {
+    background: yellow;
+}
+
+li.new {
+    background: red;
+}
+
+footer, header {
+    border: 2px dashed blue;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin-left: 20px;
+}
+
+article.new {
+    font-size: 24px;
+}
+
+.new.posted-today {
+    border-bottom: 1px solid pink;
+}

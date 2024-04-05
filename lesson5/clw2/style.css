@@ -1,0 +1,15 @@
+p[data-description] {
+    font-size: 24px;
+}
+
+p[data-description="anchors"] {
+    background: gray;
+}
+
+a[target][href] {
+    color: green;
+}
+
+input[type="text"] {
+    background: orange;
+}

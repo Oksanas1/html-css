@@ -1,0 +1,15 @@
+.highlighted, .company-data {
+    color: yellow;
+}
+
+.super-important.highlighted {
+    background: red;
+}
+
+li.user-data {
+    font-size: 24px;
+}
+
+span.user-data {
+    font-size: 10px;
+}
