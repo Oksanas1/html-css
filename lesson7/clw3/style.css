@@ -5,7 +5,7 @@ h1 + p::first-line {
 h1 + p::first-letter {
     font-size: 36px;
     margin-left: 16px;
-    background: orange;
+    color: orange;
 }
 
 h1 + p::selection {
