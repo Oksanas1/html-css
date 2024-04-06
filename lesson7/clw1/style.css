@@ -17,7 +17,7 @@
     border: 3px solid red;
 }
 
-.some-button {
+.some-button[disabled] {
     border: 2px dashed grey;
 }
 
