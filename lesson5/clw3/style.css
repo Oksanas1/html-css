@@ -1,4 +1,8 @@
-.highlighted, .company-data {
+.highlighted {
+    color: yellow;
+}
+
+.company-data {
     color: yellow;
 }
 
