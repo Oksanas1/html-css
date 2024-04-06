@@ -1,11 +1,21 @@
 div {
+    border: 2px solid black;
+    padding: 50px;
+}
+
+.blue {
     margin: 50px;
-    border: 50px solid blue;
+    background: blue;
+}
+
+.yellow {
     background: yellow;
 }
 
-div div {
-    border: 50px solid green;
-    padding: 50px;
+.green {
+    background: green;
+}
+
+.pink {
     background: pink;
 }
