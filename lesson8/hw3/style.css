@@ -22,6 +22,7 @@ div {
 }
 
 .triangle {
+    width: 0;
     display: inline-block;
     border: 50px solid transparent;
     border-top: 50px solid brown;
