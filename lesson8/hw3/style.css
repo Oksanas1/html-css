@@ -1,0 +1,33 @@
+.main {
+    margin: 50px;
+}
+
+.main div:nth-child(-n+3) {
+    width: 100px;
+    margin-bottom: 50px;
+}
+
+.rectangle {
+    height: 50px;
+    border-radius: 16px;
+    background: forestgreen;
+}
+
+.oval {
+    height: 50px;
+    border-radius: 50%;
+    background: darkmagenta
+}
+
+.circle {
+    height: 100px;
+    border-radius: 100%;
+    background: aquamarine;
+}
+
+.triangle {
+    display: inline-block;
+    border-top: 100px solid brown;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+}
