@@ -16,6 +16,6 @@ body {
 }
 
 .border {
-    box-sizing: content-box;
+    box-sizing: border-box;
     background: azure;
 }
