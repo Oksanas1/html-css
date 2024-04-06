@@ -15,11 +15,11 @@ li.new {
 }
 
 header {
-    border: 2px dashed blue;
+    border: 3px dashed blue;
 }
 
 footer {
-    border: 2px dashed blue;
+    border: 3px dashed blue;
 }
 
 h1 {
@@ -43,5 +43,5 @@ article.new {
 }
 
 .new.posted-today {
-    text-decoration: 1px solid pink;
+    background: pink;
 }
