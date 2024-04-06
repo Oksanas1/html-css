@@ -9,7 +9,7 @@
 .rectangle {
     width: 100px;
     height: 50px;
-    border-radius: 16px;
+    border-radius: 15px;
     background: forestgreen;
 }
 
