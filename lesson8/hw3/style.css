@@ -1,15 +1,15 @@
-.main {
-    margin: 50px;
+.body {
+    padding: 50px;
 }
 
-.main div {
+div + div {
     margin-bottom: 50px;
 }
 
 .rectangle {
     width: 100px;
     height: 50px;
-    border-radius: 17px;
+    border-radius: 16px;
     background: forestgreen;
 }
 
