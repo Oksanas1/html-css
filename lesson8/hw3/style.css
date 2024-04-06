@@ -27,7 +27,6 @@
 
 .triangle {
     display: inline-block;
-    border-top: 100px solid brown;
-    border-left: 50px solid transparent;
-    border-right: 50px solid transparent;
+    border: 50px solid transparent;
+    border-top: 50px solid brown;
 }
