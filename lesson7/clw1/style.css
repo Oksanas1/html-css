@@ -1,0 +1,35 @@
+.anchor {
+    background: black;
+    color: white;
+}
+
+.anchor:hover {
+    font-size: 24px;
+}
+
+.anchor:visited {
+    background: orange;
+    color: green;
+}
+
+.anchor:active,
+.some-button:active {
+    border: 3px solid red;
+}
+
+.some-button {
+    border: 2px dashed grey;
+}
+
+.some-button:hover:not([disabled]) {
+    background: gray;
+    color: white;
+}
+
+input:focus {
+    background: orange;
+}
+
+input:checked {
+    margin-left: 20px;
+}
