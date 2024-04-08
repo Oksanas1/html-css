@@ -1,0 +1,66 @@
+header {
+    background: darkturquoise;
+    overflow: hidden;
+    height: 40px;
+}
+
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+}
+
+.nav-item {
+    color: white;
+    margin-left: 16px;
+    line-height: 40px;
+}
+
+main {
+    background: beige;
+    height: 5000px;
+    position: relative;
+}
+
+.head {
+    position: absolute;
+    top: 50vh;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    margin: auto;
+    background: aquamarine;
+    width: 200px;
+    height: 200px;
+}
+
+.ear {
+    width: 40px;
+    height: 60px;
+    background: brown;
+}
+
+.ear_right {
+    margin: -60px -40px auto auto;
+}
+
+.ear_left {
+    margin: -60px auto auto -40px;
+}
+
+.eye {
+    width: 30px;
+    height: 30px;
+    background: gray;
+    border-radius: 50%;
+    position: absolute;
+    top: 80px;
+}
+
+.eye_right {
+    right: 40px;
+}
+
+.eye_left {
+    left: 40px;
+}
