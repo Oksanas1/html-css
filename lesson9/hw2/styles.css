@@ -1,0 +1,31 @@
+body::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+div {
+    width: 20%;
+    height: 200px;
+    float: left;
+}
+
+.block_red {
+    background: red;
+}
+
+.block_green {
+    background: green;
+}
+
+.block_blue {
+    background: blue;
+}
+
+.block_yellow {
+    background: yellow;
+}
+
+.block_black {
+    background: black;
+}
