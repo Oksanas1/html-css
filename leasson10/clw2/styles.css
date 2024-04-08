@@ -1,0 +1,9 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(116px, 1fr));
+}
+
+.block {
+    height: 100px;
+    min-width: 100px;
+}
