@@ -1,7 +1,11 @@
 header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     background: darkturquoise;
-    overflow: hidden;
     height: 40px;
+    z-index: 1000;
 }
 
 .nav-list {
