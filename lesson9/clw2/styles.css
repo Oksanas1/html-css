@@ -14,10 +14,6 @@ section {
     width: 50%;
     float: left;
 }
-
-section + section p {
-    margin: 0;
-}
   
 .square {
     width: 100px;
@@ -28,14 +24,9 @@ footer {
     height: 30px;
     border: 2px solid black;
     width: 100%;
+    clear: both;
 }
 
-p::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-  
 .red {
     float: right;
     background: red;
