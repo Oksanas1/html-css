@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+body::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+section {
+    background: aquamarine;
+    padding: 16px;
+    width: 50%;
+    float: left;
+}
+
+section + section p {
+    margin: 0;
+}
+  
+.square {
+    width: 100px;
+    height: 100px;
+}
+  
+footer {
+    height: 30px;
+    border: 2px solid black;
+    width: 100%;
+}
+
+p::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+  
+.red {
+    float: right;
+    background: red;
+}
+
+.green {
+    float: left;
+    background: green;
+}
