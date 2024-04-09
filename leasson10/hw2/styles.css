@@ -1,3 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
 .articles-list {
     display: flex;
     flex-wrap: wrap;
@@ -7,6 +15,5 @@
     margin: 8px;
     padding: 16px;
     background: bisque;
-    flex-grow: 1;
-    flex-basis: 300px;
+    flex: 1 1 300px;
 }
