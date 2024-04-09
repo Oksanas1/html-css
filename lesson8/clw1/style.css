@@ -1,21 +1,21 @@
 body {
-    background: antiquewhite;
+  background: antiquewhite;
 }
 
 .box {
-    margin: 16px;
-    padding: 16px;
-    border: 8px solid black;
-    width: 512px;
-    height: 128px;
+  margin: 16px;
+  padding: 16px;
+  border: 8px solid black;
+  width: 512px;
+  height: 128px;
 }
 
 .context {
-    box-sizing: content-box;
-    background: aquamarine;
+  box-sizing: content-box;
+  background: aquamarine;
 }
 
 .border {
-    box-sizing: border-box;
-    background: azure;
+  box-sizing: border-box;
+  background: azure;
 }

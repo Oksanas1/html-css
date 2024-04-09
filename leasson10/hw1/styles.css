@@ -1,28 +1,28 @@
 body {
-    display: flex;
+  display: flex;
 }
 
 .block {
-    height: 300px;
-    flex-grow: 1;
+  height: 300px;
+  flex-grow: 1;
 }
 
 .block_red {
-    background: red;
+  background: red;
 }
 
 .block_green {
-    background: green;
+  background: green;
 }
 
 .block_blue {
-    background: blue;
+  background: blue;
 }
 
 .block_yellow {
-    background: yellow;
+  background: yellow;
 }
 
 .block_black {
-    background: black;
+  background: black;
 }

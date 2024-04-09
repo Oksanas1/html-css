@@ -1,38 +1,38 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body::after {
-    content: '';
-    clear: both;
-    display: table;
+  content: '';
+  clear: both;
+  display: table;
 }
 
 section {
-    background: aquamarine;
-    padding: 16px;
-    width: 50%;
-    float: left;
+  background: aquamarine;
+  padding: 16px;
+  width: 50%;
+  float: left;
 }
-  
+
 .square {
-    width: 100px;
-    height: 100px;
+  width: 100px;
+  height: 100px;
 }
-  
+
 footer {
-    height: 30px;
-    border: 2px solid black;
-    width: 100%;
-    clear: both;
+  height: 30px;
+  border: 2px solid black;
+  width: 100%;
+  clear: both;
 }
 
 .red {
-    float: right;
-    background: red;
+  float: right;
+  background: red;
 }
 
 .green {
-    float: left;
-    background: green;
+  float: left;
+  background: green;
 }

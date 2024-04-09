@@ -1,13 +1,13 @@
 div > div {
-    width: 100px;
-    height: 100px;
-    background: coral;
+  width: 100px;
+  height: 100px;
+  background: coral;
 }
-  
+
 div > div:first-of-type {
-    display: none;
+  display: none;
 }
 
 div > div:nth-of-type(2) {
-    visibility: hidden;
-} 
+  visibility: hidden;
+}

@@ -1,29 +1,29 @@
 div {
-    margin: 50px 0 0 50px;
-    width: 100px;
+  margin: 50px 0 0 50px;
+  width: 100px;
 }
 
 .rectangle {
-    height: 50px;
-    border-radius: 16px;
-    background: forestgreen;
+  height: 50px;
+  border-radius: 16px;
+  background: forestgreen;
 }
 
 .oval {
-    height: 50px;
-    border-radius: 50%;
-    background: darkmagenta
+  height: 50px;
+  border-radius: 50%;
+  background: darkmagenta;
 }
 
 .circle {
-    height: 100px;
-    border-radius: 100%;
-    background: aquamarine;
+  height: 100px;
+  border-radius: 100%;
+  background: aquamarine;
 }
 
 .triangle {
-    width: 0;
-    display: inline-block;
-    border: 50px solid transparent;
-    border-top: 50px solid brown;
+  width: 0;
+  display: inline-block;
+  border: 50px solid transparent;
+  border-top: 50px solid brown;
 }

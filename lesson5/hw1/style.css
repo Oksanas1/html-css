@@ -1,47 +1,47 @@
-a[target="_blank"] {
-    color: green;
+a[target='_blank'] {
+  color: green;
 }
 
 ul {
-    background: yellow;
+  background: yellow;
 }
 
 ol {
-    background: yellow;
+  background: yellow;
 }
 
 li.new {
-    background: red;
+  background: red;
 }
 
 header {
-    border: 3px dashed blue;
+  border: 3px dashed blue;
 }
 
 footer {
-    border: 3px dashed blue;
+  border: 3px dashed blue;
 }
 
 h1 {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 
 h2 {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 
 h3 {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 
 h4 {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 
 article.new {
-    font-size: 24px;
+  font-size: 24px;
 }
 
 .new.posted-today {
-    background: pink;
+  background: pink;
 }
