@@ -1,0 +1,67 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.head {
+    background: yellow;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-item {
+    margin-left: 16px;
+    line-height: 40px;
+}
+
+.main {
+    display: flex;
+    height: 100%;
+}
+
+.title {
+    text-align: center;
+}
+
+.content {
+    flex-grow: 2;
+    background: pink;
+}
+
+.content .title {
+    margin: 50% 0 auto;
+    transform: translateY(-50%);
+}
+
+.aside {
+    width: 200px;
+    background: gray;
+}
+
+.aside .title {
+    margin: 16px 0;
+}
+
+.news-item {
+    margin-left: 16px;
+    line-height: 40px;
+}
+
+.footer {
+    background: green;
+}
+
+.footer p {
+    margin: 0;
+    line-height: 40px;
+    text-align: center;
+}
