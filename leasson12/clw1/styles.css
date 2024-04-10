@@ -1,5 +1,5 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto, sans-serif;
 }
 
 section {
@@ -7,7 +7,6 @@ section {
 }
 
 h1 {
-    /* margin-bottom: 32px; */
     font-weight: 900;
     text-align: center;
     text-transform: uppercase;
@@ -27,7 +26,6 @@ a {
 
 em {
     color: grey;
-    letter-spacing: 0.3px;
 }
 
 strong {
