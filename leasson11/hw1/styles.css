@@ -1,12 +1,13 @@
 .text {
   display: inline-block;
   margin: 16px;
-  border-bottom: 1px dotted black;
+  border-bottom: 1px dotted transparent;
   position: relative;
+  color: transparent;
 }
 
 .tooltip {
-  display: none;
+  display: block;
   position: absolute;
   bottom: -40px;
   background: grey;
@@ -15,6 +16,7 @@
   border-radius: 4px;
 }
 
-.text:hover .tooltip {
-  display: block;
+.text:has(.tooltip:hover) {
+  color: black;
+  border-color: black;
 }
