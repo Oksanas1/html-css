@@ -7,11 +7,12 @@ section {
 }
 
 h1 {
-    margin-bottom: 32px;
+    /* margin-bottom: 32px; */
     font-weight: 900;
     text-align: center;
     text-transform: uppercase;
     word-spacing: 20px;
+    font-size: 37px;
 }
 
 p {
@@ -25,6 +26,7 @@ a {
 
 em {
     color: grey;
+    letter-spacing: 0.3px;
 }
 
 strong {
