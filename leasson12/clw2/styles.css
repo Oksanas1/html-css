@@ -2,13 +2,10 @@ body {
   font-family: Verdana, sans-serif;
 }
 
-header {
+h1 {
   width: 50%;
   margin: 0 auto;
-}
-
-h1 {
-  height: 74px;
+  white-space: nowrap;
   font-size: 74px;
   text-align: center;
   overflow: hidden;
