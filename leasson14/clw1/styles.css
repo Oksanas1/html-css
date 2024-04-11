@@ -8,11 +8,13 @@ body {
 
 .properties-list {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .properties-list__item {
   color: #f39;
   font-size: 24px;
-  line-height: 31px;
+  line-height: 32px;
   padding: 8px;
 }
