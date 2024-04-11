@@ -8,8 +8,6 @@ body {
 
 .properties-list {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
 }
 
 .properties-list__item {
