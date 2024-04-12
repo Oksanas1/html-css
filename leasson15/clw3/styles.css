@@ -1,5 +1,9 @@
 .video-container {
-    margin: 100px  auto;
-    text-align: center;
-  }
-  
+  margin: 100px auto;
+  text-align: center;
+}
+
+iframe {
+  width: 500px;
+  height: 400px;
+}
