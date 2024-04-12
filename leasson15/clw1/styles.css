@@ -1,14 +1,19 @@
 * {
   box-sizing: border-box;
+  outline: 1px solid black;
 }
 
 .image-container {
   margin: 50px auto;
-  text-align: center;
   overflow: hidden;
 }
 
+img {
+  display: block;
+}
+
 .image {
+  margin: 0 auto;
   border-radius: 20px;
   max-width: 100%;
 }
