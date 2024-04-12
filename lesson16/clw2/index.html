@@ -15,6 +15,7 @@
   <body>
     <form>
       <div>
+        <label for="lastName">Last Name</label>
         <input 
             type="text"
             value="Emerson"
@@ -22,9 +23,9 @@
             readonly
             id="lastName"
         />
-        <label for="lastName">Last Name</label>
     </div>
       <div>
+        <label for="age">Age</label>
         <input
             type="number"
             value="17"
@@ -34,13 +35,10 @@
             max="10"
             id="age"
         />
-        <label for="age">Age</label>
     </div>
       <div>
-        <label>
-            <input type="checkbox" name="agree" />
-            Accept terms and conditions
-        </label>
+            <input type="checkbox" name="agree" id="checkboxAccept" />
+            <label for="checkboxAccept">Accept terms and conditions</label>
       </div>
       <div class="choose-gender">
             <input type="radio" name="gender" id="male">
