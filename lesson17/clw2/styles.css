@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+.table {
+  width: 500px;
+  overflow: scroll;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+.title {
+  margin-bottom: 8px;
+}
+
+thead {
+  background: aqua;
+  font-weight: 700;
+}
+
+tr {
+  height: 40px;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 4px;
+}
+
+tbody tr:nth-of-type(2n + 1) {
+  background: #f2f2f2;
+}
+
+tbody tr:hover {
+  background: #aaaaaa;
+  color: white;
+}
