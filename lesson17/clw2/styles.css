@@ -37,3 +37,7 @@ tbody tr:hover {
   background: #aaaaaa;
   color: white;
 }
+
+tfoot {
+  font-weight: 700;
+}
