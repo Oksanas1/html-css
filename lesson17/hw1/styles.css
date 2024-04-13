@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+table {
+  margin: 16px;
+  text-align: center;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+td {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+}
+
+tr:nth-child(2n) td:nth-child(2n + 1) {
+  background: black;
+}
+
+tr:nth-child(2n + 1) td:nth-child(2n) {
+  background: black;
+}
+
+tr:first-of-type td,
+tr:last-of-type td,
+tr td:first-of-type,
+tr td:last-of-type {
+  background: white !important;
+  border: none;
+}
