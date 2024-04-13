@@ -3,8 +3,8 @@
 }
 
 html {
-    font-family: monospace;
-    font-size: 16px;
+  font-family: monospace;
+  font-size: 16px;
 }
 
 .page {
@@ -27,10 +27,6 @@ html {
   text-transform: uppercase;
 }
 
-.form-control {
-  margin-bottom: 8px;
-}
-
 .form-label {
   display: block;
   margin-bottom: 4px;
@@ -43,6 +39,7 @@ html {
   border: 1px solid #808080;
   border-radius: 4px;
   outline: none;
+  margin-bottom: 8px;
 }
 
 .form-input:invalid {
