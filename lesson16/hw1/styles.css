@@ -55,7 +55,7 @@ html {
   margin-top: 24px;
   border-radius: 4px;
   background: #ff7f50;
-  line-height: 32px;
+  height: 32px;
   text-transform: uppercase;
   color: #fff;
 }
