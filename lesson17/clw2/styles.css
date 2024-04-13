@@ -7,6 +7,7 @@
   overflow: scroll;
   border-collapse: collapse;
   border: 1px solid black;
+  text-align: right;
 }
 
 .title {
