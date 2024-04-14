@@ -5,7 +5,7 @@
   top: 0;
   left: 0;
   background: coral;
-  animation: move 4s infinite; 
+  animation: move 2s infinite; 
   animation-direction: alternate;
 }
 
