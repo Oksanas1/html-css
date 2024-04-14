@@ -5,7 +5,8 @@
   top: 0;
   left: 0;
   background: coral;
-  animation: move 4s linear infinite alternate;
+  animation: move 4s infinite; 
+  animation-direction: alternate;
 }
 
 @keyframes move {
