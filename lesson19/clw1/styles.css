@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 32px;
+}
+
+.rect {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 16px;
+  background: coral;
+  opacity: 0.5;
+  align-items: center;
+  justify-content: center;
+  transition: width, opacity 2, 0.5 linear;
+}
+
+.rect:hover {
+  width: 100%;
+  opacity: 1;
+}
