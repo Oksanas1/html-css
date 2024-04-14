@@ -7,7 +7,7 @@ body {
   display: block;
   margin: 64px;
   width: 200px;
-  height: 50px;
+  line-height: 50px;
   background: coral;
   color: white;
   border-radius: 4px;
@@ -17,12 +17,17 @@ body {
   cursor: pointer;
 }
 
+button:first-of-type:hover {
+  color: darkcyan;
+}
+
 button:hover svg {
-  fill: darkcyan;
+  fill: green;
 }
 
 svg {
   width: 32px;
   height: 32px;
   vertical-align: middle;
+  fill: white;
 }
