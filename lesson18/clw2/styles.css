@@ -32,3 +32,7 @@ svg {
   vertical-align: middle;
   fill: white;
 }
+
+.fas.fa-id-card {
+  font-weight: 700;
+}
