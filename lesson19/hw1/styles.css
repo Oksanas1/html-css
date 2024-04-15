@@ -22,7 +22,7 @@ body {
 
 .rect {
   position: relative;
-  left: -70px;
+  bottom: -4px;
   width: 10px;
   border-top: 4px solid black;
   border-radius: 2px;
