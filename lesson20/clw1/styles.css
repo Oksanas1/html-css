@@ -1,4 +1,9 @@
+body {
+  position: relative;
+}
+
 .square {
+  position: absolute;
   width: 100px;
   height: 100px;
   background: tomato;
@@ -6,8 +11,10 @@
 }
 
 p {
-  margin: 0 50px;
-  padding: 15px;
+  margin: 100px 32px;
+  padding: 5px 8px;
+  border-radius: 5px;
   display: inline-block;
   background: #faebd7;
+  line-height: 1.5;
 }
