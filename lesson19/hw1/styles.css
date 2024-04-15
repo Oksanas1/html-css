@@ -1,3 +1,7 @@
+*{
+    outline: 1px solid black;
+}
+
 body {
   font-family: monospace;
 }
@@ -16,13 +20,13 @@ body {
 
 .spinner-text {
   font-size: 16px;
+  line-height: 1.5;
   text-transform: uppercase;
   animation: blinking 2s linear infinite;
 }
 
 .rect {
   position: relative;
-  bottom: -4px;
   width: 10px;
   border-top: 4px solid black;
   border-radius: 2px;
