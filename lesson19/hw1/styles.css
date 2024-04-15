@@ -11,16 +11,19 @@ body {
   align-items: center;
 }
 
+.spinner {
+    animation: blinking 3s linear infinite alternate;
+}
+
 .spinner-text {
+  line-height: 1.2;
   text-transform: uppercase;
-  animation: blinking 2s linear infinite;
 }
 
 .rect {
   position: relative;
   width: 10px;
-  border-top: 2px solid;
   border-bottom: 2px solid black;
   border-radius: 2px;
-  animation: moving 2s linear infinite alternate, blinking 2s linear infinite alternate;
+  animation: moving 2s linear infinite alternate;
 }
