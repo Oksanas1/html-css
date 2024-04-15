@@ -11,12 +11,7 @@ body {
   align-items: center;
 }
 
-.spinner {
-  display: inline-block;
-}
-
 .spinner-text {
-  line-height: 1.1;
   text-transform: uppercase;
   animation: blinking 2s linear infinite;
 }
