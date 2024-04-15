@@ -12,7 +12,7 @@ body {
 }
 
 .spinner {
-    animation: blinking 3s linear infinite alternate;
+  animation: blinking 2s linear infinite alternate;
 }
 
 .spinner-text {
@@ -23,7 +23,7 @@ body {
 .rect {
   position: relative;
   width: 10px;
-  border-bottom: 2px solid black;
+  border-bottom: 4px solid black;
   border-radius: 2px;
   animation: moving 2s linear infinite alternate;
 }
