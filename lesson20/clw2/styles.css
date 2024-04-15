@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fancy-button {
+  width: 150px;
+  height: 50px;
+  border-radius: 4px;
+  border: none;
+  background: linear-gradient(45deg, yellow 0%, red 100%);
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  animation: 0.5s ease-in-out 0.4s 2 alternate step,
+    0.5s ease-in-out 1 forwards rotage,
+    1s ease 2s 1 forwards jump;
+}
+
+@keyframes rotage {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes step {
+  from {
+    margin-top: 0;
+  }
+  to {
+    margin-top: -40px;
+  }
+}
+
+@keyframes jump {
+  from {
+    margin-left: 0;
+  }
+  to {
+    margin-left: 2000px;
+  }
+}
