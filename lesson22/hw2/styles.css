@@ -108,13 +108,13 @@ body {
 }
 
 @media (max-width: 599px) {
-  .big_image {
+  .big-image {
     display: none;
   }
 }
 
 @media (min-width: 600px) {
-  .small_image {
+  .small-image {
     display: none;
   }
 }
