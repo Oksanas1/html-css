@@ -6,17 +6,27 @@ html {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
 }
+body {
+  margin: 0;
+}
 
 .header {
-  line-height: 3em;
+  height: 3em;
   padding: 0 1em;
   background: #eeeeee;
   display: flex;
   align-items: center;
 }
 
+.button {
+  border: none;
+  padding: 0;
+  font-size: 2em;
+  cursor: pointer;
+}
+
 @media (min-width: 600px) {
-  .header {
+  .button {
     display: none;
   }
 }
@@ -25,13 +35,6 @@ html {
   .main {
     display: none;
   }
-}
-
-.button {
-  border: none;
-  padding: 0;
-  font-size: 2em;
-  cursor: pointer;
 }
 
 .navigation {
