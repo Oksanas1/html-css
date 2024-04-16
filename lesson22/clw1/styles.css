@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  margin: 8px;
+  background: #ff7f50;
+}
+
+@media (min-width: 600px) {
+  .square {
+    background: #8a2be2;
+  }
+}
+
+@media (orientation: landscape) {
+  .square {
+    float: left;
+  }
+
+  .container::after {
+    content: '';
+    display: table;
+    width: 100%;
+    clear: both;
+  }
+}
