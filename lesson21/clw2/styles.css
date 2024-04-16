@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+.content::after {
+  content: '';
+  display: table;
+  width: 100%;
+  clear: both;
+}
+
+.gallery {
+  float: left;
+  height: 100vh;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffaa55;
+}
+
+.image {
+  max-width: 100%;
+  display: block;
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.75);
+}
+
+.ideas {
+  float: left;
+  height: 100vh;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #55aaff;
+}
+
+.idea {
+  padding: 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  white-space: nowrap;
+}
