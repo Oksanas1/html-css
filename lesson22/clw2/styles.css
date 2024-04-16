@@ -12,8 +12,9 @@ body {
 }
 
 .container div {
-  align-content: center;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 200px;
 }
 
@@ -30,8 +31,6 @@ body {
 }
 
 .content {
-  display: inline-block;
-  margin: 0;
   padding: 8px;
   background: #faebd7;
   border-radius: 4px;
