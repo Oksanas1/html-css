@@ -1,4 +1,5 @@
 @import 'styles/varibales.scss';
+@import 'styles/breakpoints.scss';
 
 *{
     box-sizing: border-box
@@ -11,15 +12,33 @@ body {
     height: 100vh;
 }
 
+.container {
+    @media (orientation: landscape) {
+        display: flex;
+    }
+}
+
 .square {
     width: 100px;
     height: 100px;
-    margin: 8px;
+    margin: 16px 8px;
     background: #ff7f50;
-}
 
-.square + .square {
-    margin-top: 16px;
+    @include for-tablet {
+        background: $color-medium;
+    }
+
+    @include for-tablet {
+        background: $color-medium
+    }
+
+    @include for-tablet-landscape {
+        background: $color-big;
+    }
+
+    @include for-desctop {
+        background: $color-large;
+    }
 }
 
 @import 'styles/breakpoints.scss';

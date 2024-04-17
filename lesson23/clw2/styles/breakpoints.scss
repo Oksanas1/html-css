@@ -1,25 +1,25 @@
 @import 'varibales.scss';
 
-@media (min-width: $phone) and (max-width: ($tablet - 1px)) {
-    .square {
-        background: $color-medium;
+@mixin for-tablet {
+    @media screen and (min-width: $phone-width) and (max-width: ($tablet-width - 1px)) {
+        @content;
     }
 }
 
-@media (min-width: $phone) and (max-width: ($tablet - 1px)) {
-    .square {
-        background: $color-medium;
+@mixin for-tablet {
+    @media screen and (min-width: $phone-width) and (max-width: ($tablet-width - 1px)) {
+        @content;
     }
 }
 
-@media (min-width: $tablet) and (max-width: ($desktop - 1px)) {
-    .square {
-        background: $color-big;
+@mixin for-tablet-landscape {
+    @media (min-width: $tablet-width) and (max-width: ($desktop-width - 1px)) {
+        @content;
     }
 }
 
-@media (min-width: ($desktop)) {
-    .square {
-        background: $color-large;
+@mixin for-desctop {
+    @media (min-width: ($desktop-width)) {
+        @content;
     }
 }

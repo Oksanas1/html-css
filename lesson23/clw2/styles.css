@@ -9,23 +9,24 @@ body {
   height: 100vh;
 }
 
+@media (orientation: landscape) {
+  .container {
+    display: flex;
+  }
+}
+
 .square {
   width: 100px;
   height: 100px;
-  margin: 8px;
+  margin: 16px 8px;
   background: #ff7f50;
 }
-
-.square + .square {
-  margin-top: 16px;
-}
-
-@media (min-width: 600px) and (max-width: 899px) {
+@media screen and (min-width: 600px) and (max-width: 899px) {
   .square {
     background: #8a2be2;
   }
 }
-@media (min-width: 600px) and (max-width: 899px) {
+@media screen and (min-width: 600px) and (max-width: 899px) {
   .square {
     background: #8a2be2;
   }
