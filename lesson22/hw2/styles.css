@@ -110,23 +110,19 @@ img {
 
 @media (max-width: 599px) {
   .big-image {
-    /* display: none; */
-    position: absolute;
-    clip: rect(0 0 0 0);
-    width: 1px;
-    height: 1px;
-    margin: -1px;
+    display: none;
   }
 }
 
-@media (min-width: 600px) {
+@media (min-width: 600px) and (max-width: 1199px) {
   .small-image {
-    /* display: none; */
-    position: absolute;
-    clip: rect(0 0 0 0);
-    width: 1px;
-    height: 1px;
-    margin: -1px;
+    display: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  .small-image {
+    display: none;
   }
 }
 
