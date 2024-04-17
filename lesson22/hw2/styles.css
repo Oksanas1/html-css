@@ -110,13 +110,15 @@ img {
 
 @media (max-width: 599px) {
   .big-image {
-    display: none;
+    /* display: none; */
+    visibility: hidden;
   }
 }
 
 @media (min-width: 600px) {
   .small-image {
-    display: none;
+    /* display: none; */
+    visibility: hidden;
   }
 }
 
