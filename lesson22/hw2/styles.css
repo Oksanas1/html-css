@@ -114,7 +114,7 @@ img {
   }
 }
 
-@media (min-width: 560px) {
+@media screen and (min-width: 560px) {
   .small-image {
     display: none;
   }
