@@ -1,0 +1,25 @@
+@import 'varibales.scss';
+
+@media (min-width: $phone) and (max-width: ($tablet - 1px)) {
+    .square {
+        background: $color-medium;
+    }
+}
+
+@media (min-width: $phone) and (max-width: ($tablet - 1px)) {
+    .square {
+        background: $color-medium;
+    }
+}
+
+@media (min-width: $tablet) and (max-width: ($desktop - 1px)) {
+    .square {
+        background: $color-big;
+    }
+}
+
+@media (min-width: ($desktop)) {
+    .square {
+        background: $color-large;
+    }
+}
