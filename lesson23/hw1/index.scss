@@ -1,0 +1,13 @@
+@import 'styles/varibles.scss';
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: $font-famile-main;
+    font-size: $font-size-main;
+    color: $text-color-primary;
+}
+
+@import 'styles/header.scss';
