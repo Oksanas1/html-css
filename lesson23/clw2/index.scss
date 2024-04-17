@@ -18,4 +18,8 @@ body {
     background: #ff7f50;
 }
 
+.square + .square {
+    margin-top: 16px;
+}
+
 @import 'styles/breakpoints.scss';

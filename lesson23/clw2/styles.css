@@ -16,6 +16,10 @@ body {
   background: #ff7f50;
 }
 
+.square + .square {
+  margin-top: 16px;
+}
+
 @media (min-width: 600px) and (max-width: 899px) {
   .square {
     background: #8a2be2;
