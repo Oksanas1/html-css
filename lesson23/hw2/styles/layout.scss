@@ -1,0 +1,49 @@
+@import 'varibles.scss';
+@import 'breakpoints.scss';
+
+.container {
+  display: flex;
+  flex-direction: column;
+
+  @include respond-to(tablet) {
+    flex-flow: row wrap;
+
+    div {
+      flex: 1 1 50%;
+    }
+  }
+
+  @include respond-to(from-tablet) {
+    flex-flow: row wrap;
+
+    div {
+      flex: 1 1 0;
+    }
+  }
+}
+
+.container div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+}
+
+.navigation {
+  background: $color-orange1;
+}
+
+.products-list {
+  background: $color-green1;
+}
+
+.news {
+  background: $color-blue1;
+}
+
+.content {
+  padding: 8px;
+  background: $color-orange2;
+  border-radius: $border-radius;
+  text-transform: lowercase;
+}

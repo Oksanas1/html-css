@@ -1,0 +1,11 @@
+@import 'varibles.scss';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $font-family-main;
+}
+
+@import 'layout.scss';

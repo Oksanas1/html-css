@@ -1,0 +1,14 @@
+$mobile: 600;
+$tablet: 900;
+
+@mixin respond-to($device) {
+  @if ($device==tablet) {
+    @media (min-width: ($mobile + px)) and (max-width: ($tablet - 1 + px)) {
+      @content;
+    }
+  } @else if($device==from-tablet) {
+    @media (min-width: ($tablet + px)) {
+      @content;
+    }
+  }
+}
